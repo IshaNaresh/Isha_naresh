@@ -767,7 +767,7 @@ function checkAnswer() {
     });
 
     if (answer === correctAnswer) {
-        resultElement.innerHTML = `<p class="correct">Correct!</p>`;
+        resultElement.innerHTML =`<p class="correct text-danger">Correct!</p>`;
         score++; // Increment the score for the correct answer
     } else {
         resultElement.innerHTML = `<p class="incorrect">Wrong. The correct answer is ${correctAnswer}</p>`;
